@@ -29,6 +29,7 @@ public class App {
 
     @GetMapping("test")
     public String test() {
+        System.out.println("aaaa");
         return "服务1的测试";
     }
 
